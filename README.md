@@ -17,15 +17,19 @@ A electronic lock POC(Proof of Concept) powered by IOTA
 * Mount the **boot** partition
   * touch ssh /mount_point/boot/
   * vim /mount_point/boot/wpa_supplicant.conf
+    
     ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-    update_config=1
-    country=«your_ISO-3166-1_two-letter_country_code»
 
+    update_config=1
+
+    country=<your_ISO-3166-1_two-letter_country_code>
+    
     network={
         ssid="<your_SSID>"
         psk="<your_PSK>"
         key_mgmt=WPA-PSK
     }
+    
 
 #### Login
 * Default account/password
