@@ -44,21 +44,19 @@ A electronic lock POC(Proof of Concept) powered by IOTA
   * `sudo apt-get install python-pip python-setuptools python-dev python3-dev build-essential libssl-dev libffi-dev`
 
 * Official Python library for the IOTA Core:
-  * '$ pip install pyota'
+  * `$ pip install pyota`
     * Know issue: [TypeError: unsupported operand type(s) for -=: 'Retry' and 'int'](https://stackoverflow.com/questions/37495375/python-pip-install-throws-typeerror-unsupported-operand-types-for-retry)
 
 * IOTA transaction POW utilities:
-`
-$ git clone https://github.com/chenweiii/dcurl.git
-$ cd dcurl/
-$ make check (https://github.com/chenwei-tw/dcurl/issues/40)
-`
+  * `$ git clone https://github.com/chenweiii/dcurl.git`
+  * `$ cd dcurl/`
+  * `$ make check (https://github.com/chenwei-tw/dcurl/issues/40)`
 
 * Install iota-swarm-like-node:
-`$ pip2.7 install cryptography==2.1.4`
-`$ git clone https://github.com/yillkid/iota_swarm_like_node.git`
-`$ cd iota_swarm_like_node/`
-`$ python server.py`
+  * `$ pip2.7 install cryptography==2.1.4`
+  * `$ git clone https://github.com/yillkid/iota_swarm_like_node.git`
+  * `$ cd iota_swarm_like_node/`
+  * `$ python server.py`
 
 #### TODO:
 * https://github.com/chenwei-tw/dcurl/issues/40
