@@ -58,8 +58,15 @@ A electronic lock POC(Proof of Concept) powered by IOTA
   * `$ cd iota_swarm_like_node/`
   * `$ python server.py`
 
+#### Sending example transaction
+* `$ cd iota_swarm_like_node/examples`
+* `$ python send_data.py`
+
+Send send transfer command ... 
+RXDAJLAPHJ9TXVJWGNYYOFPARCIAHZEUIJYKYHTXEVZA9ZHDIXVIGJHJAQTRSPYGFDEILGFAJLPQWWXBD
+Duration: 6.59507608414 seconds
+
 #### TODO:
-* https://github.com/chenwei-tw/dcurl/issues/40
 * Electronic lock POC 
 
 Follow the link [INSTALLING OPERATING SYSTEM IMAGES ON LINUX](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md) on RaspberryPi official website for detail.
